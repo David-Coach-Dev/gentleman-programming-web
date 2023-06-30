@@ -43,9 +43,12 @@
   grid-area: CT;
   display: flex;
   flex-direction: column;
-  padding: 40px 40px 0;
+  padding: 0.45rem 2.5rem 0;
   margin: 0;
+  margin-left: 1.25rem;
   color: var(--FONT-COLOR);
+  background-color: var(--BG-CONTAINER);
+  width: 96.7%;
   font-family: Roboto, Arial, sans-serif;
 }
 .youtube__banner {
@@ -55,46 +58,12 @@
   margin-right: auto;
   z-index: 1;
 }
-.youtubeChannelTabs {
-  padding-bottom: 1rem;
-  padding-right: 4rem;
-  background-color: var(--BG-CONTAINER);
-  width: 100%;
-}
-.youtubeChannelSingleTab {
-  font-family: "Roboto", "Noto", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  padding: 0.75rem 1.8rem;
-  color: var(--FONT-COLOR-SECONDARY);
-  vertical-align: middle;
-  text-decoration: none;
-}
-.youtubeChannelSingleTab:focus {
-  color: var(--FONT-COLOR);
-  border: none;
-  background-color: hsla(0, 0%, 100%, 0.308);
-}
-.youtubeChannelSingleTab:hover {
-  color: var(--FONT-COLOR);
-}
 .youtubeSecondaryText {
   color: var(--FONT-COLOR-SECONDARY);
 }
-.youtubeChannelListContainer{
-  margin: 2rem 0;
-}
-.youtubeVideoCard{
-  margin: 0 3px;
-  vertical-align: top;
-  white-space: normal;
-}
-.youtubeVideoCardImage{
-  width: 20rem;
-  border-radius: 8px;
-}
-.youtubeVideoCardTitle{
-  color: var(--FONT-COLOR);
-  text-overflow: ellipsis;
-  text-decoration: none;
+
+.youtube__divider{
+  border: 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2)
 }

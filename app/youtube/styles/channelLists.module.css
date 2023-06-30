@@ -1,0 +1,19 @@
+.youtubeChannelSectionsContainer{
+  width: 1082px;
+  overflow: hidden;
+}
+.youtubeChannelListContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem 0;
+    overflow: hidden;
+  }
+.youtubePlaylistName{
+  display: flex;
+  margin: 1.25rem 0;
+  color: var(--FONT-COLOR);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  }
