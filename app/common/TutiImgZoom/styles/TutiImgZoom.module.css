@@ -9,9 +9,6 @@
   grid-auto-flow: column;
   grid-auto-columns: min(230px, 35vmin);
   place-content: end center;
-  /* background: linear-gradient(#0000, rgb(50 50 50 / 88%)),
-    url(https://i.imgur.com/QlxujcI.png)
-      top/cover; */
 }
 
 .TutiImgZoom__figure {

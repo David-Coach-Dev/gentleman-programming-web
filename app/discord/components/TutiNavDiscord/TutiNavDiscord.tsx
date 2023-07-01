@@ -10,9 +10,9 @@ import { TutiNavDropdown } from '../TutiNavDropdown';
 const renderLink = ({ id, title, href }: ITutiNavDiscordLink): JSX.Element => {
   const linkClass = styles.TutiNavDiscord__linksA;
   const titleClass = styles.TutiNavDiscord__title;
-  const linkProps = { key: id, className: linkClass, href };
+  const linkProps = { className: linkClass, href };
   return (
-    <a {...linkProps}>
+    <a key={id} {...linkProps}>
       <span className={titleClass}>{title}</span>
     </a>
   );

@@ -3,7 +3,7 @@ import '@app/styles/global.css';
 
 /* Importing four components the `@app/components` */
 import { TutiFooterFinal, TutiTop } from '@app/common';
-import { NavBar, Pag404 } from '@app/components';
+import { NavBar } from '@app/components';
 
 /* `import style from './styles/page.module.css' */
 
